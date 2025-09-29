@@ -1,0 +1,54 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# ---- Virtual Environment ----
+.venv/
+env/
+venv/
+ENV/
+
+# ---- Environment Variables ----
+.env
+*.env
+
+# ---- Django ----
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# ---- Jupyter & Notebooks ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- IDE & Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS Specific ----
+.DS_Store
+Thumbs.db
+
+# ---- Build & Distribution ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- ML & Data ----
+data/
+datasets/
+models/
+*.h5
+*.ckpt
